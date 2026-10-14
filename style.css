@@ -1,0 +1,81 @@
+/*estilos del body */
+body {
+    background-color: #0d0614; /* Fondo oscuro morado */
+    color: #e0e0e0;
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    line-height: 1.5;
+}
+
+/* MENSAJE OCULTO AL SELECCIONAR / SOMBREAR TEXTO */
+::selection {
+    background-color: #5b1399; /* Fondo morado al seleccionar */
+    color: #ffffff;
+}
+
+
+
+/*estilos de h1*/
+h1 {
+    color: #d18aff;
+    text-align: center;
+    font-size: 36px;
+    font-family: Georgia, serif;
+    margin-bottom: 25px;
+    border-bottom: 2px solid #3c1361;
+    padding-bottom: 10px;
+}
+
+section {
+    background-color: #2a0845; 
+    margin-bottom: 15px;
+    border-radius: 6px;
+}
+
+/*etilos del sh2*/
+h2 {
+    color: #d18aff;
+    font-size: 18px;
+    font-family: Georgia, serif;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+   
+}
+
+h3 {
+    color: #fff;
+    font-size: 15px;
+    margin-top: 8px;
+    margin-bottom: 4px;
+}
+
+p, li {
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+ul {
+    margin-left: 20px;
+}
+
+/*estilos de mi foto*/
+.foto {
+    text-align: center;
+}
+
+.foto img {
+    border-radius: 4px;
+    border: 2px solid #d18aff;
+    margin-top: 5px;
+}
+
+a {
+    color: #d18aff;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: #fff;
+}
